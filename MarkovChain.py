@@ -16,6 +16,8 @@ fhand = open(filename, 'r')
 i = 0
 data01 = []
 states = []
+
+#just a sorting key to sort the array by first student_id and then event time
 def sort_key (line):
     result = int(line[0]) * 1000000 + float(line[2])
     return(result)
@@ -59,7 +61,7 @@ for i in range(len(TransitionMatrix)):
     for j in range(len(TransitionMatrix)):
         if round(TransitionMatrix[i][j], 2) != 0:
             G.add_edge(states[i], states[j], weight=round(TransitionMatrix[i][j], 2), label="{:.02f}".format(TransitionMatrix[i][j]))
-nx.drawing.nx_pydot.write_dot(G, 'MarkovChain.dot') #dot file with the graph
+#nx.drawing.nx_pydot.write_dot(G, 'MarkovChain.dot') #dot file with the graph
 
 #to make the end node probability calculation we have to make sure the matrix multiplication stays valid
 #for that the nodes without out-connections are given the self-connecting edge
