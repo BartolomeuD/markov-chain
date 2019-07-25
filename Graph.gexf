@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="1" title="label" type="string" />
+      <attribute id="2" title="networkx_key" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="size" type="long" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>25/07/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="successful class" label="successful class">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="fell asleep" label="fell asleep">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="Dropped General" label="Dropped General">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </node>
+      <node id="level down" label="level down">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="Finished course" label="Finished course">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="App session" label="App session">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="level up" label="level up">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="start General course" label="start General course">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="successful class" target="fell asleep" weight="0.04">
+        <attvalues>
+          <attvalue for="1" value="0.04" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="successful class" target="Dropped General" weight="0.02">
+        <attvalues>
+          <attvalue for="1" value="0.02" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="successful class" target="successful class" weight="0.8">
+        <attvalues>
+          <attvalue for="1" value="0.80" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="successful class" target="level down" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="successful class" target="Finished course" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="successful class" target="App session" weight="0.12">
+        <attvalues>
+          <attvalue for="1" value="0.12" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="successful class" target="level up" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="level down" target="successful class" weight="0.87">
+        <attvalues>
+          <attvalue for="1" value="0.87" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="level down" target="level down" weight="0.02">
+        <attvalues>
+          <attvalue for="1" value="0.02" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="level down" target="Finished course" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="level down" target="App session" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="level down" target="level up" weight="0.09">
+        <attvalues>
+          <attvalue for="1" value="0.09" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="App session" target="Dropped General" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="App session" target="successful class" weight="0.17">
+        <attvalues>
+          <attvalue for="1" value="0.17" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="App session" target="start General course" weight="0.05">
+        <attvalues>
+          <attvalue for="1" value="0.05" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="App session" target="App session" weight="0.77">
+        <attvalues>
+          <attvalue for="1" value="0.77" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="level up" target="fell asleep" weight="0.03">
+        <attvalues>
+          <attvalue for="1" value="0.03" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="level up" target="Dropped General" weight="0.02">
+        <attvalues>
+          <attvalue for="1" value="0.02" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="level up" target="successful class" weight="0.85">
+        <attvalues>
+          <attvalue for="1" value="0.85" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="level up" target="level down" weight="0.06">
+        <attvalues>
+          <attvalue for="1" value="0.06" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="level up" target="App session" weight="0.03">
+        <attvalues>
+          <attvalue for="1" value="0.03" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="level up" target="level up" weight="0.01">
+        <attvalues>
+          <attvalue for="1" value="0.01" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="start General course" target="successful class" weight="0.83">
+        <attvalues>
+          <attvalue for="1" value="0.83" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="start General course" target="level down" weight="0.02">
+        <attvalues>
+          <attvalue for="1" value="0.02" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="start General course" target="App session" weight="0.13">
+        <attvalues>
+          <attvalue for="1" value="0.13" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="start General course" target="level up" weight="0.03">
+        <attvalues>
+          <attvalue for="1" value="0.03" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
