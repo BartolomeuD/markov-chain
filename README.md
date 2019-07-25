@@ -14,7 +14,9 @@ The data of user activity should include identification of a user, "step" commit
 The data format should be as in the file **worklist.csv** in the repo. First column - *student id*, second - *event name*, third - *time* in excel-like format represented as a number - but the table should have **no header**
 
 # How to launch 
-Run the script **MarkovChain.py** in any Python 3 IDE having your user activity log in a format described earlier in your working directory. The script will create a **Graph.gexf** - a graph file representing the trained Markov Chain 
+Run the script **MarkovChain.py** in any Python 3 IDE having your user activity log in a format described earlier in your working directory. By default the data file should be named **worklist.csv**. The script will create a **Graph.gexf** - a graph file representing the trained Markov Chain. 
 
 # Visualize
 Use Gephi or any other graph visualization tool that supports the **.gefx** format to open the resulting file. After some customization within Gephi project you may obtain something like **General.gephi** file in the repo (also saved as **.pdf** picture in the repo for the sake of clarity). 
+
+For more details read comments in the code in **MarkovChain.py**
