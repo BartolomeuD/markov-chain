@@ -34,7 +34,7 @@ calc_matrix = []
 for i in range(len(states)):
     calc_matrix.append([])
     for j in range(len(states)):
-        calc_matrix[i].append(0)
+        calc_matrix[i].append(0) 
     
 for i in range (len(data01) - 1):
     if data01[i][0] == data01[i+1][0]: #if the student is the same
