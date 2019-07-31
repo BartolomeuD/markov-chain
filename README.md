@@ -11,7 +11,7 @@ In our particular case we built a chain to visualize user activity in some MOOC.
 
 # Data format
 The data of user activity should include identification of a user, name of a "step" committed by a user and the time of that step – so that for each user it would be possible to represent his activity as sequence of state-nodes, following one another. The nodes of the chain, in the essence, represent events happening to our user.
-The data format should be as in the file **worklist.csv** in the repo. First column - *student id*, second - *event name*, third - *time* in excel-like format represented as a number - but the table should have **no header**
+The data format should be as in the file **worklist.csv** in the repo. First column - *user id*, second - *event name*, third - *time* in excel-like format represented as a number - but the table should have **no header**
 
 # How to launch 
 Run the script **MarkovChain.py** in any Python 3 IDE having your user activity log in a format described earlier in your working directory. By default the data file should be named **worklist.csv**. The script will create a **Graph.gexf** - a graph file representing the trained Markov Chain. 
